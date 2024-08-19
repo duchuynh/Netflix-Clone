@@ -21,13 +21,11 @@ const Auth = () =>{
 
     const login = useCallback(async() => {
         try{
-            console.log('Logging in with email', email, 'and password:', password);
-            const response = await signIn('credentials', {
+            await signIn('credentials', {
                 email,
                 password,
                 callbackUrl: '/profiles'
             });
-            console.log('Login response:', response)
         } catch(error){
             console.log('Login error:', error);
         }
