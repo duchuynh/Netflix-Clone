@@ -1,40 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project is a Netflix Clone built on the **NextJs** framework using **React** and **Tailwind** as the frontend. The website was deployed on [Vercel](https://netflix-clone-pi-rouge.vercel.app/auth). The project's backend uses Prisma and MongoDB as the backend that stores the movie thumbnails and a select number of videos. We also used OAuth and an authentication system to allow the user to create an account and login. Although I could not get the Google authentication to work in production, it was working fine in localhost.
 
-## Getting Started
+In the first page, the website shows you the authentication page where a user can sign-on using Google or their credentials. They can also create an account. If you are a new user, please create an account.
+<img width="919" alt="image" src="https://github.com/user-attachments/assets/3c50161c-4504-4ad4-802e-71504327f9f8">
+Upon getting to the home screen, the user can enjoy the view of a movie's poster or short video. 
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The user can scroll down and take a look at the list of available movies.
+<img width="931" alt="image" src="https://github.com/user-attachments/assets/5bc601cc-1329-498c-8b65-b5176e0abafa">
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Upon pressing the "Play" button, the user can watch a movie that is loaded in the system.
+<img width="952" alt="image" src="https://github.com/user-attachments/assets/573c777d-aa1d-42d3-b602-7ce87ca2d0fe">
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+The user can only watch Big Buck Bunny, Sintel, Tears of Steel, and the Elephant movie as I could not load official movies and shows.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
